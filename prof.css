@@ -1,13 +1,136 @@
-*{
+* {
     margin: 0;
+
 }
-.header{
+
+body {
+    height: 400px;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(182, 182, 236);
 }
 
-.header > img{
+.header>img {
     height: 60px;
     width: 90px;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main {
+    background-color: rgb(204, 156, 248);
+    align-items: center;
+}
+
+.form {
+    margin-right: 60px;
+    padding: 50px;
+    padding-left: 500px;
+    display: flex;
+    display: grid;
+    grid-template-areas: "A1"
+        "A2";
+    grid-template-rows: 200px 198px;
+    grid-template-columns: 1fr;
+
+}
+
+.pessoais {
+    grid-area: A1;
+}
+
+.prof {
+    grid-area: A2;
+}
+
+h3 {
+    display: flex;
+}
+
+#nome {
+    display: flex;
+    width: 50%;
+    height: 20px;
+    border-radius: 7px;
+    margin: 5px;
+
+}
+
+#endereco {
+    display: flex;
+    width: 50%;
+    height: 20px;
+    border-radius: 7px;
+    margin: 5px;
+
+}
+
+#salv {
+    height: 30px;
+    width: 20%;
+    border-radius: 100px;
+    margin: 5px;
+    margin-left: 240px;
+}
+
+#loctrab {
+    border-radius: 7px;
+    display: flex;
+    margin: 5px;
+    height: 20px;
+
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    padding-left: 90px;
+    margin: 5px;
+}
+
+#est {
+    border-radius: 7px;
+height: 20px;
+    margin: 5px;
+}
+
+#cid {
+    border-radius: 7px;
+height: 20px;
+    margin: 5px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+
+}
+
+nav>a:link {
+    text-decoration: none;
+}
+
+nav>a:hover {
+    color: rgb(255, 0, 170);
+}
+
+footer {
+    background-color: rgb(97, 97, 175);
+    height: 60px;
+    display: flex;
+
+}
+
+.main {
+    background-color: rgb(204, 156, 248);
 }
